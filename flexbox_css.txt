@@ -1,0 +1,52 @@
+flexbox;
+
+flex-direction:
+justify-content:
+
+
+
+	<!DOCTYPE html>
+	<html>
+	<body>
+	<link rel="stylesheet" href="style.css">
+
+	<div class="container">
+		<div class="box" id="box1">1</div>
+		<div class="box" id="box2">2</div>
+		<div class="box" id="box3">3</div>
+		<div class="box" id="box4">4</div>
+	</div>	
+
+	</body>
+	</html>
+
+
+style.css
+
+
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}    
+#box1{
+    background-color: hsl(0, 73%, 60%);
+}
+#box2{
+    background-color: hsl(58, 73%, 60%);
+}
+#box3{
+    background-color: hsl(156, 73%, 60%);
+}
+#box4{
+    background-color: hsl(195, 73%, 60%);
+}
